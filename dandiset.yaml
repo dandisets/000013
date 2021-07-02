@@ -8,12 +8,22 @@ access:
     schemaKey: ContactPoint
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
-  measurementTechnique: []
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: patch clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
   numberOfBytes: 11408735292
   numberOfFiles: 52
   numberOfSubjects: 23
@@ -22,7 +32,10 @@ assetsSummary:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: House mouse
     schemaKey: SpeciesType
-  variableMeasured: []
+  variableMeasured:
+  - BehavioralTimeSeries
+  - CurrentClampSeries
+  - PatchClampSeries
 citation: Hires, Samuel; Gutnisky, Diego; Yu, Jianing; O'Connor, Daniel H; Svoboda,
   Karel (2021) Low-noise encoding of active touch by layer 4 in the somatosensory
   cortex (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000013/draft
