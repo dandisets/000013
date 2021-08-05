@@ -84,7 +84,8 @@ identifier: DANDI:000013
 keywords: []
 license:
 - spdx:CC-BY-4.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000013/versions/draft/assets/
 name: Low-noise encoding of active touch by layer 4 in the somatosensory cortex
 protocol: []
 relatedResource:
