@@ -92,6 +92,7 @@ name: Low-noise encoding of active touch by layer 4 in the somatosensory cortex
 protocol: []
 relatedResource:
 - identifier: doi:10.7554/eLife.06619.001
+  name: Low-noise encoding of active touch by layer 4 in the somatosensory cortex
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://elifesciences.org/articles/06619
